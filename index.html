@@ -20,9 +20,10 @@
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="style.css" />
     <!-- Bootstrap CSS -->
     <link
@@ -52,9 +53,10 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="/css/flickity.css" />
     <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
       rel="stylesheet"
-      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
   </head>
   <body>
@@ -139,20 +141,6 @@
             </div>
           </div>
         </div>
-        <div class="single-slider hero-slider-4">
-          <div class="container">
-            <div class="row">
-              <div class="offset-lg-5 col-lg-7">
-                <div class="text">
-                  <h1>
-                    Praj Marine <span>Consultants</span> Pte Ltd Singapore
-                    <span>Trust!</span>
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <!-- End Single Slider -->
       </div>
@@ -212,21 +200,21 @@
               <ul
                 class="list-group list-group-flush d-flex flex-column justify-content-evenly"
               >
-                <li class="pt-4 fs-5 fs-7 list-group-item">
+                <li class="pt-lg-4 pt-2 list-group-item">
                   Experience for 27 years as Marine Ship & FPSO.
                 </li>
-                <li class="pt-4 fs-5 fs-7 list-group-item">
+                <li class="pt-lg-4 pt-2 list-group-item">
                   FPSO Marine consultancy & studies for conversion, Ship
                   docking, Marine packages & Classification rules
                 </li>
-                <li class="pt-4 fs-5 fs-7 list-group-item">
+                <li class="pt-lg-4 pt-2 list-group-item">
                   Ability to Multitask, integrate great products/ brands
                   innovative solutions saving cost & delivery time.
                 </li>
-                <li class="pt-4 fs-5 fs-7 list-group-item">
+                <li class="pt-lg-4 pt-2 list-group-item">
                   Associates/Partners in UK, Singapore & India.
                 </li>
-                <li class="pt-4 fs-5 fs-7 list-group-item">
+                <li class="pt-lg-4 pt-2 list-group-item">
                   Technical & onsite service support after commissioning.
                 </li>
               </ul>
@@ -236,13 +224,13 @@
       </div>
     </section>
 
-    <section class="newsletter section mt-4" id="contactSec">
+    <section class="newsletter section mt-md-4 mt-0" id="contactSec">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-12">
             <!-- Start Newsletter Form -->
             <div class="subscribe-text">
-              <h6>Contact Us</h6>
+              <h6 class="fw-semibold fs-3">Contact Us</h6>
               <p class="">
                 Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,<br />
                 homero alterum.
@@ -253,11 +241,13 @@
           <div class="col-lg-6 col-12">
             <!-- Start Newsletter Form -->
             <div class="subscribe-form">
-              <h3 class="fs-4">
-                Email : <a href="" class="fs-5">anant@pmc-sg.com</a>
+              <h3 class="fs-md-4 fs-5 mb-1">
+                <i class="fa fa-envelope me-1"></i>
+                <a href="#" class="fs-6 fw-semibold">anant@pmc-sg.com</a>
               </h3>
-              <h3 class="fs-4">
-                Mob : <a href="" class="fs-5">+91 90904500112</a>
+              <h3 class="fs-md-4 fs-6">
+                <i class="fa fa-phone fs-4 me-1"></i>
+                <a href="#" class="fs-6 fw-semibold">+91 90904500112</a>
               </h3>
             </div>
             <!-- End Newsletter Form -->
@@ -265,7 +255,7 @@
         </div>
       </div>
     </section>
-    <section id="clients" class="clients section-bg my-4">
+    <section id="clients" class="clients section-bg my-md-4 my-0">
       <div class="container">
         <div class="row" data-aos="zoom-in">
           <div
@@ -333,7 +323,7 @@
     <!-- /End Newsletter Area -->
 
     <!-- Footer Area -->
-    <footer id="footer" class="mt-5">
+    <footer id="footer" class="p-lg-5 p-sm-3 p-2 mt-md-5 mt-4">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -349,31 +339,37 @@
             <div class="useful-link">
               <h2>Useful Links</h2>
               <div class="use-links">
-                <li>
-                  <a href="index.html"
-                    ><i class="fa-solid fa-angles-right"></i> Home</a
-                  >
-                </li>
-                <li>
-                  <a href="/about.html"
-                    ><i class="fa-solid fa-angles-right"></i> About Us</a
-                  >
-                </li>
-                <li>
-                  <a href="projects.html"
-                    ><i class="fa-solid fa-angles-right"></i> Products</a
-                  >
-                </li>
-                <li>
-                  <a href="/projects.html"
-                    ><i class="fa-solid fa-angles-right"></i> Project</a
-                  >
-                </li>
-                <li>
-                  <a href="#contactSec">
-                    <i class="fa-solid fa-angles-right"></i> Contact Us</a
-                  >
-                </li>
+                <div class="row">
+                  <div class="col-6">
+                    <li>
+                      <a href="index.html"
+                        ><i class="fa-solid fa-angles-right"></i> Home</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/about.html"
+                        ><i class="fa-solid fa-angles-right"></i> About Us</a
+                      >
+                    </li>
+                    <li>
+                      <a href="projects.html"
+                        ><i class="fa-solid fa-angles-right"></i> Products</a
+                      >
+                    </li>
+                  </div>
+                  <div class="col-6">
+                    <li>
+                      <a href="/projects.html"
+                        ><i class="fa-solid fa-angles-right"></i> Project</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#contactSec">
+                        <i class="fa-solid fa-angles-right"></i> Contact Us</a
+                      >
+                    </li>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -383,47 +379,35 @@
               <h2>Address</h2>
             </div>
             <div class="row">
-              <div class="col-md-5 mb-sm-0 mb-2">
+              <div class="col-md-5 mb-sm-0 mb-4">
                 <div class="address-links">
                   <div>
-                    <h4 class="fs-5">Singapore Office</h4>
+                    <h4 class="fs-md-5 fs-6 fw-semibold">Singapore Office</h4>
                     <li class="address1">
-                      <i class="fa-solid fa-location-dot"></i> 10, Anson Road
+                      <i class="fa fa-location-dot"></i> 10, Anson Road
                       International Plaza Singapore 079903
                     </li>
                   </div>
-                  <li>
-                    <a href=""
-                      ><i class="fa-solid fa-phone"></i> +91 90904500112</a
-                    >
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fa-solid fa-envelope"></i> mail@1234567.com</a
-                    >
-                  </li>
+                  <div>
+                    <p><i class="fa fa-phone me-1"></i>+91 90904500112</p>
+                    <p><i class="fa fa-envelope me-1"></i>anant@pmc-sg.com</p>
+                  </div>
                 </div>
               </div>
               <div class="col-md-7">
                 <div class="address-links">
                   <div>
-                    <h4 class="fs-5">India Office</h4>
+                    <h4 class="fs-md-5 fs-6 fw-semibold">India Office</h4>
                     <li class="address1">
-                      <i class="fa-solid fa-location-dot"></i> Next to
-                      Bookmyreads Library, Sahakarnagar No 2. Pune 411009,
-                      State: Maharashtra, INDIA.
+                      <i class="fa fa-location-dot"></i> Next to Bookmyreads
+                      Library, Sahakarnagar No 2. Pune 411009, State:
+                      Maharashtra, INDIA.
                     </li>
                   </div>
-                  <li>
-                    <a href=""
-                      ><i class="fa-solid fa-phone"></i> +91 90904500112</a
-                    >
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fa-solid fa-envelope"></i> mail@1234567.com</a
-                    >
-                  </li>
+                  <div>
+                    <p><i class="fa fa-phone me-1"></i>+91 90904500112</p>
+                    <p><i class="fa fa-envelope me-1"></i>anant@pmc-sg.com</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -439,7 +423,8 @@
     <!--/ End Footer Area -->
 
     <!-- jquery Min JS -->
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/flickity.min.js"></script>
+    <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
     <script src="js/jquery.min.js"></script>
     <!-- jquery Migrate JS -->
     <script src="js/jquery-migrate-3.0.0.js"></script>

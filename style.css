@@ -1,6 +1,5 @@
- 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #888;
@@ -351,11 +350,16 @@ body {
 .header .single-widget:last-child {
   margin: 0;
 }
-.header .single-widget .logo {
+.header .logo {
   margin: 0;
   padding: 0;
-  margin-top: 7px;
+  margin-top: 10px;
+  height: 3rem;
 }
+.logo img {
+  height: 100%;
+}
+
 .header .single-widget i {
   position: absolute;
   left: 0;
@@ -554,7 +558,7 @@ body {
   margin-top: 150px;
 }
 .slider .single-slider h1 {
-   font-size: 38px;
+  font-size: 38px;
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -1355,7 +1359,7 @@ body {
 .service-details-inner p:last-child {
   margin-bottom: 0;
 }
- 
+
 .blog {
   background: #fff;
 }
@@ -2081,7 +2085,7 @@ body {
 /*==========================
 	Start Appointment CSS
 ============================*/
- 
+
 /*==========================
 	End Appointment CSS
 ============================*/
@@ -2791,7 +2795,7 @@ body {
 }
 .newsletter .subscribe-form {
   position: relative;
-} 
+}
 .newsletter .common-input {
   height: 60px;
   width: 300px;
@@ -2829,7 +2833,7 @@ body {
 .newsletter .button:hover {
   box-shadow: none;
 }
- 
+
 .about-area {
   position: relative;
   z-index: 1;
@@ -3089,10 +3093,10 @@ body {
   color: #ffffff;
   border-radius: 100%;
 }
- 
+
 /* Top slider */
 .hero-slider-1 {
-  background: url("https://www.shutterstock.com/image-photo/panoramic-view-large-cargo-ship-260nw-2328008679.jpg");
+  background: url("https://indiashippingnews.com/wp-content/uploads/2023/12/Container-Ship.jpg");
 }
 .hero-slider-2 {
   background: url("https://videohive.img.customer.envatousercontent.com/files/232278951/590_300_6.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=1192e4358533a9af4a88d90513196ae1");
@@ -3103,11 +3107,11 @@ body {
 .hero-slider-4 {
   background: url("https://www.shutterstock.com/image-photo/panoramic-view-large-cargo-ship-260nw-2328008679.jpg");
 }
-.hero-slider-2  h1{
-  color:white
+.hero-slider-2 h1 {
+  color: white;
 }
-.hero-slider-3  h1{
-  color:white
+.hero-slider-3 h1 {
+  color: white;
 }
 
 /* clients */
@@ -3134,53 +3138,24 @@ body {
     max-width: 40%;
   }
 }
-/* PCM Advantages  */ 
-.gallery-cell {
-  height: 400px;
-  margin-right: 10px;
-  counter-increment: gallery-cell;
-}
-
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}
-.gallery-cell img {
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+/* PCM Advantages  */
 
 /* footer */
 #footer {
-  background: #f7f7f7;
   padding: 3rem;
   /* padding-top: 5rem; */
   padding-top: 7rem;
   padding-bottom: 80px;
-  background-image: url(https://arena.km.ua/wp-content/uploads/3538533.jpg);
-}
-#footer li a {
-  color: rgba(41, 41, 41, 0.829)41, 41, 0.761);
+  background-image: url("https://arena.km.ua/wp-content/uploads/3538533.jpg");
 }
 #footer li {
-  color: #2f2f2f;
+  color: #414141db;
+}
+.footer-about p {
+  color: #201f1fdb;
+  font-weight: 500;
 }
 
-#footer2 {
-  background: #f7f7f7;
-  padding: 3rem;
-  margin-top: 0px;
-   padding-top: 7rem;
-  padding-bottom: 80px;
-  background-color: rgb(10, 157, 243);
- }
- 
 .social-links h2 {
   padding-bottom: 15px;
   font-size: 20px;
@@ -3189,13 +3164,13 @@ body {
 .social-links img {
   padding-bottom: 25px;
 }
-.social-icons { 
+.social-icons {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   color: #777777;
 }
-.social-icons a { 
+.social-icons a {
   color: #777777;
 }
 .social-icons a:hover {
@@ -3216,6 +3191,7 @@ li {
   padding-bottom: 15px;
   font-size: 20px;
   font-weight: 600;
+  color: #1a76d1;
 }
 .useful-link img {
   padding-bottom: 15px;
@@ -3229,10 +3205,9 @@ li {
   color: #898989;
 }
 .use-links li a {
-  color: #303030;
   font-size: 15px;
   font-weight: 500;
-  color: #777777;
+  color: #404040;
 }
 .use-links li a:hover {
   color: #000;
@@ -3241,19 +3216,21 @@ li {
   padding-bottom: 15px;
   font-size: 20px;
   font-weight: 600;
+  color: #1a76d1;
 }
 .address img {
   padding-bottom: 15px;
 }
-.address-links li a {
-  color: #303030;
+
+.address-links p {
   font-size: 15px;
   font-weight: 500;
-  color: #777777;
+  color: #2a2a2a;
+  padding-left: 10px;
 }
 .address-links li i {
   font-size: 16px;
-  padding-right: 8px;
+  padding-left: 8px;
   color: #82074a;
 }
 .address-links li i:nth-child(1) {
@@ -3263,6 +3240,8 @@ li {
   font-weight: 500;
   font-size: 15px;
   display: flex;
+  line-height: 1.5rem;
+  margin-bottom: 8px;
 }
 .address-links {
   line-height: 32px;
@@ -3279,6 +3258,16 @@ li {
 }
 
 /* Product */
+.pmcAdvantages li {
+  font-size: 18px;
+}
+.product-info li {
+  color: #232323de;
+  font-weight: 500;
+}
+.product-info p {
+  color: #232323de;
+}
 .product-gallery-cell {
   height: 300px;
   margin-right: 10px;
@@ -3343,32 +3332,37 @@ li {
   height: 100%;
 }
 
-
 /* About  */
-.aboutSec{
-  padding: 1rem;
-  background-color: #80808005;
+.aboutSec {
+  background-color: #f3f3f3;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  left: 0;
 }
-.aboutSec h1{
- font-weight: 600;
- color: black;
- line-height: 1.8rem;
+.personInfo {
+  text-align: start;
 }
-.profileImg{
-  height: 14rem;
-  width:14rem;
+.aboutSec h1 {
+  font-weight: 600;
+  color: black;
+  line-height: 1.8rem;
 }
-.personInfo h2{
+.profileImg {
+  height: 17rem;
+  width: 17rem;
+}
+.personInfo h2 {
   color: black;
   font-weight: 600;
 }
-.personInfo p{
+.personInfo p {
   color: black;
   font-weight: 500;
-  line-height:1.8rem;
+  line-height: 1.8rem;
 }
-.personInfo span{
-  font-size: 20px;
+.personInfo span {
   color: rgb(0 110 172);
   font-weight: 600;
 }
